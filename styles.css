@@ -1,0 +1,24 @@
+* {
+    background-color: black;
+}
+
+img {
+    width: 128px;
+    height: auto;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 95vh;
+}
+
+@media screen and (min-width: 600px) {
+    img {
+        width: 256px;
+        height: auto;
+    }
+}
